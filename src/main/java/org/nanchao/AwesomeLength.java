@@ -12,7 +12,7 @@ public final class AwesomeLength {
     }
 
     @Override
-    public boolean equals(Object otherLength) {
+    public boolean equals(final Object otherLength) {
         if (this == otherLength) return true;
         if (otherLength == null || getClass() != otherLength.getClass()) return false;
 
